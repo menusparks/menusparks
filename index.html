@@ -16,12 +16,27 @@
               'brand-primary': {
                 'DEFAULT': '#f59e0b', // amber-500
                 'light': '#fbbf24', // amber-400
-                'dark': '#d97706'  // amber-600
+                'dark': '#d97706',  // amber-600
+                'darker': '#b45309' // amber-700
               },
               'brand-accent': '#ef4444', // red-500
             },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+              'fade-in': 'fadeIn 0.5s ease-in-out forwards',
             },
           },
         },
