@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Logo } from '../constants';
 
@@ -31,7 +32,7 @@ const HeroSection: React.FC = () => {
         Get Ready to Spark Your Menu.
       </h2>
       <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-400">
-        MenuSparks is your future secret weapon, an expert AI executive chef that turns your existing inventory into profitable, creative weekly specials. We're launching soon!
+        MenuSparks is your future secret weapon, drawing on 25 years of kitchen experience and deep industry knowledge to turn your existing inventory into profitable, creative weekly specials. We're launching soon!
       </p>
       <div className="mt-8 max-w-md mx-auto">
         {submitted ? (

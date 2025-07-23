@@ -37,7 +37,7 @@ const PrivacyPolicyPage: React.FC = () => (
                 </div>
                 <div>
                     <h3 className="text-xl font-semibold text-gray-200">1.3 Generated Content</h3>
-                    <p className="mt-2">We store all menu specials, descriptions, and related content generated through our AI-powered service for your account.</p>
+                    <p className="mt-2">We store all menu specials, descriptions, and related content generated through our service for your account.</p>
                 </div>
                 <div>
                     <h3 className="text-xl font-semibold text-gray-200">1.4 Usage Information</h3>
@@ -62,7 +62,7 @@ const PrivacyPolicyPage: React.FC = () => (
                 <p>We use collected information to:</p>
                 <ul className="list-disc list-inside space-y-2 pl-4">
                     <li>Create, maintain, and secure your account</li>
-                    <li>Generate personalized menu specials using AI technology</li>
+                    <li>Generate personalized menu specials using our technology</li>
                     <li>Process payments and manage subscriptions</li>
                     <li>Provide customer support and respond to inquiries</li>
                     <li>Send service-related communications and updates</li>
@@ -94,7 +94,7 @@ const PrivacyPolicyPage: React.FC = () => (
                     <h3 className="text-xl font-semibold text-gray-200">4.1 Service Providers</h3>
                     <p className="mt-2">We work with trusted third-party providers who assist with:</p>
                     <ul className="list-disc list-inside space-y-2 pl-4 mt-2">
-                        <li><strong>AI Content Generation:</strong> Your restaurant profile data is sent to Google's Gemini API to generate menu content</li>
+                        <li><strong>Content Generation:</strong> Your restaurant profile data is sent to our technology partner (Google) to generate menu content.</li>
                         <li><strong>Payment Processing:</strong> Billing information is processed by secure payment providers</li>
                         <li><strong>Cloud Hosting:</strong> Data is stored on secure cloud infrastructure</li>
                         <li><strong>Analytics:</strong> Usage data for service improvement</li>
@@ -222,9 +222,9 @@ const PrivacyPolicyPage: React.FC = () => (
         <div>
             <h2 className="text-2xl font-bold text-gray-100 pt-4 border-t border-gray-700/50">12. Automated Decision-Making</h2>
             <div className="mt-4 space-y-2">
-                <p>Our AI-powered content generation constitutes automated processing. You have the right to:</p>
+                <p>Our content generation service constitutes automated processing. You have the right to:</p>
                 <ul className="list-disc list-inside space-y-2 pl-4">
-                    <li>Request human review of AI-generated content</li>
+                    <li>Request human review of generated content</li>
                     <li>Object to automated decision-making</li>
                     <li>Understand the logic behind automated processes</li>
                 </ul>
