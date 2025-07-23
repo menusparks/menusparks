@@ -1,4 +1,5 @@
 
+
 import React, { useState } from 'react';
 import { Logo } from '../constants';
 import SpecialCard from '../components/SpecialCard';
@@ -167,7 +168,7 @@ const QuoteSection = () => (
     <section className="text-center bg-brand-surface/30 rounded-2xl animate-fade-in-up p-12 md:p-16">
         <div className="max-w-3xl mx-auto">
             <blockquote className="text-2xl md:text-3xl font-semibold italic text-gray-200 leading-relaxed">
-                "Built by chefs. Backed by 25 years, 13 restaurants, and 1 mission: to make incredible menus accessible to every kitchen."
+                "Built by Restaurant people for restaurant people. 25+ years in kitchens, 12+ restaurants managed, 1 simple mission: make incredible menus accessible to everyone."
             </blockquote>
             <p className="mt-6 text-lg font-bold text-brand-primary-light">- The MenuSparks Team</p>
         </div>
