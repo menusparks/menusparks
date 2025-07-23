@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Logo } from '../constants';
 
@@ -25,10 +24,10 @@ const HeroSection: React.FC = () => {
       <div className="inline-block p-4 bg-brand-surface rounded-full mb-4">
         <Logo />
       </div>
-      <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-brand-primary-light to-brand-accent leading-tight">
+      <h1 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-brand-primary-light to-brand-accent leading-snug">
         Something New is Simmering.
       </h1>
-      <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter text-gray-200 mt-2 leading-tight">
+      <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter text-gray-200 mt-2 leading-snug">
         Get Ready to Spark Your Menu.
       </h2>
       <p className="mt-6 max-w-2xl mx-auto text-lg text-gray-400">
